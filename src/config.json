@@ -1,0 +1,24 @@
+{
+    "app_id" : "com.magfalms.magfaapp",
+    "appname": "magfaapp",
+    "desktopappname": "Magfa Desktop",
+    "versioncode" : 3510,
+    "versionname" : "3.5.1",
+    "cache_expiration_time" : 300000,
+    "default_lang" : "fa",
+    "languages": {"en": "English", "fa": "فارسی"},
+    "wsservice" : "moodle_mobile_app",
+    "wsextservice" : "local_mobile",
+    "demo_sites": {"student": {"url": "https://school.demo.moodle.net", "username": "student", "password": "moodle"}, "teacher": {"url": "https://school.demo.moodle.net", "username": "teacher", "password": "moodle"}},
+    "gcmpn": "770545864159",
+    "customurlscheme": "moodlemobile",
+    "siteurl": [ {"name": "سایت شرکت مگفا", "url": "https://lms.magfalms.net/"}, 
+			 {"name": "سایت بانک مرکزی", "url": "https://cbi.magfalms.net/"},
+			 {"name": "سایت شرکت ایران خودرو", "url": "https://ikco.magfalms.net/"},
+			 {"name": "سایت شرکت آریاساسول", "url": "http://lms1.aryasasol.com/"}
+    ],
+    "multisitesdisplay": "buttons",
+    "skipssoconfirmation": false,
+    "forcedefaultlanguage": false,
+    "privacypolicy": "https://moodle.org/mod/page/view.php?id=8148"
+}
