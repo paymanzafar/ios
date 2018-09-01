@@ -19,6 +19,6 @@
     ],
     "multisitesdisplay": "buttons",
     "skipssoconfirmation": false,
-    "forcedefaultlanguage": false,
+    "forcedefaultlanguage": true,
     "privacypolicy": "https://moodle.org/mod/page/view.php?id=8148"
 }
