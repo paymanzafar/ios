@@ -118,9 +118,7 @@
               "xml": "<array><string>remote-notification</string></array>",
               "count": 1
             }
-          ],
-          "GCM_SENDER_ID": [],
-          "IS_GCM_ENABLED": []
+          ]
         }
       },
       "*-Debug.plist": {

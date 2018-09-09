@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.magfalms.magfaapp" version="3.5.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Magfa ELM</name>
+    <name>مگ‌آموز</name>
     <description>MAGFA E-Learning App</description>
     <author email="admin@magfalms.net" href="http://magfa.com">MAGFA E-Learning team</author>
     <content src="index.html" />
@@ -117,6 +117,9 @@
     <plugin name="nl.kingsquare.cordova.background-audio" spec="^1.0.1" />
     <plugin name="cordova-plugin-customurlscheme" spec="^4.3.0">
         <variable name="URL_SCHEME" value="moodlemobile" />
+        <variable name="ANDROID_SCHEME" value=" " />
+        <variable name="ANDROID_HOST" value=" " />
+        <variable name="ANDROID_PATHPREFIX" value="/" />
     </plugin>
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
     <plugin name="cordova-plugin-zip" spec="^3.1.0" />
@@ -126,8 +129,8 @@
     <plugin name="cordova-sqlite-evcore-extbuild-free" spec="^0.9.7" />
     <plugin name="cordova-plugin-badge" spec="^0.8.7" />
     <plugin name="cordova-android-support-gradle-release" spec="^1.4.4">
-        <variable name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
+        <variable name="ANDROID_SUPPORT_VERSION" value="27.1.1" />
     </plugin>
-    <plugin name="phonegap-plugin-push" spec="^2.2.3" />
-    <engine name="ios" spec="4.5.4" />
+    <plugin name="phonegap-plugin-push" spec="~2.2.3" />
+    <engine name="ios" spec="4.5.5" />
 </widget>
