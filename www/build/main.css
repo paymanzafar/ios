@@ -8657,6 +8657,7 @@ ion-header {
   z-index: 10;
   display: block;
   width: 100%;
+    padding-top: env(safe-area-inset-top);
 }
 
 [dir="ltr"] ion-header {
@@ -8673,6 +8674,7 @@ ion-footer {
   z-index: 10;
   display: block;
   width: 100%;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 [dir="ltr"] ion-footer {
