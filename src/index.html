@@ -58,12 +58,22 @@
 
   <link href="build/main.css" rel="stylesheet">
 
+	<style type="text/css">
+        body{
+          	padding-top: constant(safe-area-inset-top); 
+       	padding-top: env(safe-area-inset-top); 
+
+		padding-bottom: constant(safe-area-inset-bottom); 
+       	padding-bottom: env(safe-area-inset-bottom); 
+
+        }
+   	 </style>
+
+
 </head>
 <body>
 
-  padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
-  padding-top: env(safe-area-inset-top); /* iOS 11.2 */
-
+  
   <!-- Ionic's root component and where the app will load -->
   <ion-app></ion-app>
 
