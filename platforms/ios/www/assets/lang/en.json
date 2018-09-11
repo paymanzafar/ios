@@ -1068,7 +1068,7 @@
     "core.completion-alt-auto-pass": "Completed: {{$a}} (achieved pass grade)",
     "core.completion-alt-auto-y": "Completed: {{$a}}",
     "core.completion-alt-auto-y-override": "Completed: {{$a.modname}} (set by {{$a.overrideuser}})",
-    "core.completion-alt-manual-n": "Not completed: {{$a}}. Select to mark as complete.",
+    "core.completion-alt-manual-n": "کامل نشده است : {{$a}}. انتخاب کنید تا بعنوان کامل‌شده علامت بخورد.",
     "core.completion-alt-manual-n-override": "Not completed: {{$a.modname}} (set by {{$a.overrideuser}}). Select to mark as complete.",
     "core.completion-alt-manual-y": "Completed: {{$a}}. Select to mark as not complete.",
     "core.completion-alt-manual-y-override": "Completed: {{$a.modname}} (set by {{$a.overrideuser}}). Select to mark as not complete.",
