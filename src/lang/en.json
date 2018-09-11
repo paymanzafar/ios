@@ -31,7 +31,7 @@
     "completion-alt-auto-pass": "Completed: {{$a}} (achieved pass grade)",
     "completion-alt-auto-y": "Completed: {{$a}}",
     "completion-alt-auto-y-override": "Completed: {{$a.modname}} (set by {{$a.overrideuser}})",
-    "completion-alt-manual-n": "Not completed: {{$a}}. Select to mark as complete.",
+    "completion-alt-manual-n": "کامل نشده است : {{$a}}. انتخاب کنید تا بعنوان کامل‌شده علامت بخورد.",
     "completion-alt-manual-n-override": "Not completed: {{$a.modname}} (set by {{$a.overrideuser}}). Select to mark as complete.",
     "completion-alt-manual-y": "Completed: {{$a}}. Select to mark as not complete.",
     "completion-alt-manual-y-override": "Completed: {{$a.modname}} (set by {{$a.overrideuser}}). Select to mark as not complete.",

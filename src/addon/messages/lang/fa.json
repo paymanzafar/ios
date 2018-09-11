@@ -17,7 +17,8 @@
     "messagepreferences": "تنظیمات ارسال پیام",
     "messages": "پیام‌ها",
     "newmessage": "پیام جدید",
-    "nomessages": "هنوز پیامی گفته نشده است",
+	"newmessages": "پیام‌های جدید",
+    "nomessages": "پیامی وجود ندارد.",
     "nousersfound": "کاربری پیدا نشد",
     "removecontact": "حذف کردن مخاطب",
 	"removecontactconfirm": "مخاطب از لیست مخاطبین حذف خواهد شد.",
@@ -26,9 +27,6 @@
     "type_online": "آنلاین",
     "type_search": "جستجوی نتایج",
     "type_strangers": "سایرین",
-    "send": "فرستادن",
-    "sendmessage": "ارسال پیام",
     "unblockcontact": "خارج کردن مخاطب از حالت مسدود",
 	"warningmessagenotsent": "امکان ارسال پیام به کاربر {{user}} وجود ندارد. {{error}}"
-
 }

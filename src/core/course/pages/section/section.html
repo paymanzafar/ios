@@ -6,9 +6,9 @@
     </ion-navbar>
 </ion-header>
 <ion-content>
-    <core-tabs>
+    <core-tabs dir="ltr">
         <!-- Course contents tab. -->
-        <core-tab [title]="'core.course.contents' | translate">
+        <core-tab dir="auto" [title]="'core.course.contents' | translate">
             <ng-template>
                 <core-navbar-buttons>
                     <core-context-menu>
@@ -29,7 +29,7 @@
             </ng-template>
         </core-tab>
         <!-- One tab per handler. -->
-        <core-tab *ngFor="let handler of courseHandlers" [title]="handler.data.title | translate" class="{{handler.data.class}}">
+        <core-tab dir="auto" *ngFor="let handler of courseHandlers" [title]="handler.data.title | translate" class="{{handler.data.class}}">
             <ng-template>
                 <core-dynamic-component [component]="handler.data.component" [data]="handler.data.componentData"></core-dynamic-component>
             </ng-template>
